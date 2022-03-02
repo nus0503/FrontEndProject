@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+header div {
+  background-color: rgb(179, 119, 119);
+}
+nav div {
+  background-color: aqua;
+}
+article div {
+  background-color: beige;
+}
+aside div {
+  background-color: blueviolet;
+}
+footer div {
+  background-color: brown;
+}
+footer div a span img {
+  width: 20px;
+}
+a {
+  text-decoration: none;
+}
