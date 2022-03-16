@@ -1,13 +1,30 @@
+html {
+  height: 100%;
+}
 body {
   margin: 0;
+  height: 100%;
 }
 .container {
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+header {
+  height: 15%;
+  background-color: white;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+.searchForm {
+  display: inline;
 }
 header div {
-  background-color: rgb(179, 119, 119);
+  display: inline;
 }
+
 nav div {
   background-color: aqua;
 }
@@ -15,14 +32,46 @@ article div {
   background-color: beige;
 }
 aside div {
-  background-color: blueviolet;
+  background-color: rgb(163, 136, 119);
 }
 footer div {
-  background-color: brown;
+  background-color: rgb(216, 193, 193);
 }
 footer div a span img {
   width: 20px;
 }
 a {
   text-decoration: none;
+}
+#logo {
+  font-size: 17px;
+}
+nav div ul {
+  list-style: none;
+}
+/* nav div ul li {
+  float: left;
+  outline: 1px dotted red;
+  margin-left: 20px;
+} */
+.box {
+  text-align: center;
+}
+.box ul {
+  display: inline-block;
+}
+.box ul li {
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aa {
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+.allView {
+  float: right;
+  display: inline-block;
 }
